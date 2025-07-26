@@ -14,7 +14,10 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "none",
+      "security": "tls",
+      "tlsSettings": {
+        "serverName": "app.snapchat.com"
+      },
       "wsSettings": {
         "path": "/esim_dark",
         "headers": {
