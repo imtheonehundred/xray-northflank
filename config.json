@@ -14,7 +14,8 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "none",
+      "security": "tls",
+      "tlsSettings": {},
       "wsSettings": {
         "path": "/esim_dark",
         "headers": {
