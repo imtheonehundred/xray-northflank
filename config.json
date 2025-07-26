@@ -8,16 +8,13 @@
     "settings": {
       "clients": [{
         "id": "4511eb54-711e-4e85-b8dc-ee843dc90990",
-        "flow": "xtls-rprx-vision"
+        "flow": ""
       }],
       "decryption": "none"
     },
     "streamSettings": {
       "network": "ws",
-      "security": "tls",
-      "tlsSettings": {
-        "serverName": "app.snapchat.com"
-      },
+      "security": "none",
       "wsSettings": {
         "path": "/esim_dark",
         "headers": {
